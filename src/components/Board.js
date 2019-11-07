@@ -1,6 +1,5 @@
 import React from 'react'
 import Square from './Square.js'
-import './index.js'
 
 export default class Board extends React.Component {
     renderSquare(i) { 
@@ -30,6 +29,6 @@ export default class Board extends React.Component {
             {this.renderSquare(8)}
           </div>
         </div>
-      );
+      )
     }
   }
